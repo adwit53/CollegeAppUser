@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">College App User</string>
+    <string name="bold" tools:ignore="ReferenceType">@font/latobold</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/latoregular</string>
+    <string name="light" tools:ignore="ReferenceType">@font/latolight</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string-array name="theme">
+        <item>System Default</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+    <string name="about_college"> Vellore Institute of Technology (VIT) is a private research deemed university located in Katpadi in Vellore, Tamil Nadu, India. Founded in 1984 as Vellore Engineering College by G. Viswanathan. It has campuses in Vellore and Chennai and sister universities in Amaravati and Bhopal. The Government of India has recognized VIT as one of the Institutions of Eminence. </string>
+</resources>

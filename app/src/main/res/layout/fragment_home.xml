@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.home.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:text="VIT INSTITUTE"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/title_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:layout_marginTop="@dimen/text_margin"
+                android:text="@string/about_college"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/text_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:background="@color/darkColor">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="36dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="36dp"
+                        android:text="DEPARTMENTS"
+                        android:textColor="#ffff"
+                        android:textSize="@dimen/title_size" />
+
+                    <!--                <com.google.android.material.card.MaterialCardView-->
+                    <!--                    android:layout_width="match_parent"-->
+                    <!--                    android:layout_height="wrap_content"-->
+                    <!--                    android:layout_marginTop="16dp">-->
+
+                    <!--                    <LinearLayout-->
+                    <!--                        android:layout_width="match_parent"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:orientation="vertical">-->
+
+                    <!--                        <TextView-->
+                    <!--                            android:layout_width="wrap_content"-->
+                    <!--                            android:layout_height="wrap_content"-->
+                    <!--                            android:layout_gravity="center_horizontal"-->
+                    <!--                            android:layout_marginHorizontal="@dimen/text_margin"-->
+                    <!--                            android:layout_marginTop="@dimen/text_margin"-->
+                    <!--                            android:text="Information Technology"-->
+                    <!--                            android:textColor="@color/textColor"-->
+                    <!--                            android:layout_margin="8dp"-->
+                    <!--                            android:textSize="@dimen/text_size" />-->
+                    <!--                        <View-->
+                    <!--                            android:layout_width="match_parent"-->
+                    <!--                            android:layout_height="1dp"-->
+                    <!--                            android:background="@color/grey"/>-->
+                    <!--                        <TextView-->
+                    <!--                            android:layout_width="wrap_content"-->
+                    <!--                            android:layout_height="wrap_content"-->
+                    <!--                            android:layout_gravity="center_horizontal"-->
+                    <!--                            android:layout_marginHorizontal="@dimen/text_margin"-->
+                    <!--                            android:layout_marginTop="@dimen/text_margin"-->
+                    <!--                            android:text="Information Technology"-->
+                    <!--                            android:textColor="@color/textColor"-->
+                    <!--                            android:layout_margin="8dp"-->
+                    <!--                            android:textSize="@dimen/text_size" />-->
+                    <!--                        <View-->
+                    <!--                            android:layout_width="match_parent"-->
+                    <!--                            android:layout_height="1dp"-->
+                    <!--                            android:background="@color/grey"/>-->
+                    <!--                        <TextView-->
+                    <!--                            android:layout_width="wrap_content"-->
+                    <!--                            android:layout_height="wrap_content"-->
+                    <!--                            android:layout_gravity="center_horizontal"-->
+                    <!--                            android:layout_marginHorizontal="@dimen/text_margin"-->
+                    <!--                            android:layout_marginTop="@dimen/text_margin"-->
+                    <!--                            android:text="Information Technology"-->
+                    <!--                            android:textColor="@color/textColor"-->
+                    <!--                            android:layout_margin="8dp"-->
+                    <!--                            android:textSize="@dimen/text_size" />-->
+
+                    <!--                    </LinearLayout>-->
+                    <!--                </com.google.android.material.card.MaterialCardView>-->
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/text_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="36dp"
+                    android:text="CONTACT DETAILS"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/title_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:text="VIT Vellore katpadi Tamil Nadu"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/text_size" />
+
+                <ImageView
+                    android:id="@+id/map"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:src="@drawable/location_vit" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp">
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_pdf"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ebookName"
+            android:text="Data Structure Using C"
+            android:layout_marginLeft="4dp"
+            android:gravity="center"
+            android:textSize="@dimen/text_size"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/ebookDownload"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_downward_24"
+            android:layout_marginLeft="-35dp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,60 @@
+<!-- developer_info_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/black">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/developer_photo"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Developer Name -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adwit Agrawal"
+        android:textSize="24sp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:textColor="@android:color/white" />
+
+    <!-- Developer Position -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Developer"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/white" />
+
+    <!-- Developer Bio -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:text="I am a 21 year old software developer passionate about creating projects, Checkout my LinkedIn profile to know more about me."
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="8dp"
+        android:textColor="@android:color/white" />
+
+    <!-- LinkedIn Link -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visit LinkedIn Profile"
+        android:id="@+id/linkedIn"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
